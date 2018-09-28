@@ -16,9 +16,9 @@
   width:300%;
   height:100%;
   position:relative;
-  -webkit-animation:slide 30s infinite;
-  -moz-animation:slide 30s infinite;
-  animation:slide 30s infinite;
+  -webkit-animation:slide 16s infinite;
+  -moz-animation:slide 16s infinite;
+  animation:slide 16s infinite;
 }
 .slider{
   width:33.33333%;
@@ -286,10 +286,14 @@
     margin-left:30px;
   }
 }
-
+@media screen and (min-width:768px) {
+  #slider {
+    height: 500px;
+  }
+}
 @media screen and (min-width: 900px) {
   #slider {
-    height: 90vh;
+    height: 80vh;
   }
   .switch{
     width:45px;
