@@ -6,7 +6,8 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 		<link rel="shortcut icon" href="favicon.ico">
 		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
-		<link rel="stylesheet" type="text/css" href="assets/css/slider-def.css">
+
+		<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
 	</head>
 	<body>
     <header>
@@ -63,35 +64,17 @@
           <div class="hero">
             <div class="hero__right">
 							<div id="slider">
-							   <div class="slides">
-							      <!-- First slide -->
-							      <div class="slider">
-							         <div class="images">
-							            <div class="image-1"></div>
-							         </div>
-							      </div>
-										<!-- Second slide -->
-							      <div class="slider">
-							         <div class="images">
-							            <div class="image-1"></div>
-							         </div>
-							      </div>
-										<!-- Third slide -->
-							      <div class="slider">
-							         <div class="images">
-							            <div class="image-1"></div>
-							         </div>
-							      </div>
-							   </div>
-								 <div class="switch">
-							    <ul>
-							      <li>
-							        <div class="on"></div>
-							      </li>
-							      <li></li>
-							      <li></li>
-							    </ul>
-							  </div>
+								<div class="autoplay">
+									<div class="slider">
+										<div class="image-1"></div>
+						      </div>
+									<div class="slider">
+										<div class="image-1"></div>
+						      </div>
+									<div class="slider">
+										<div class="image-1"></div>
+						      </div>
+								</div>
 							</div>
             </div>
             <div class="hero__left">
@@ -158,10 +141,12 @@
     </div>
 
     <!-- JAVASCRIPT -->
-    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
-    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+		<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+		<script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+		<script type="text/javascript" src="slick/slick.min.js"></script>
 		<script src="assets/js/retina.min.js"></script>
 		<script src="assets/js/main.js"></script>
+
 
     <script>
       $(document).ready(function (){
@@ -179,6 +164,16 @@
           $(".mobile__menu").toggleClass("show");
         });
       });
+			$(document).ready(function (){
+				$('.autoplay').slick({
+				  slidesToShow: 1,
+				  slidesToScroll: 1,
+				  autoplay: false,
+				  autoplaySpeed: 5000,
+					arrows: false,
+					dots: true
+				});
+			});
       function HideDialog(){
         $("#bkgOverlay").fadeOut(400);
         $("#delayedPopup").fadeOut(300);
