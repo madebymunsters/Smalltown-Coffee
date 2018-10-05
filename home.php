@@ -10,7 +10,7 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 		<link rel="shortcut icon" href="favicon.ico">
-		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+		<link rel="stylesheet" type="text/css" href="https://smalltown.coffee/landing/assets/css/style.css">
 
 		<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
 	</head>
@@ -19,7 +19,7 @@
       <div class="container">
         <div class="logo">
     			<a href="https://smalltown.coffee/">
-            <img src="assets/images/logo-black.png" alt="Smalltown Coffee" />
+            <img src="https://smalltown.coffee/landing/assets/images/logo-black.png" alt="Smalltown Coffee" />
           </a>
     		</div>
         <div class="social">
@@ -47,7 +47,7 @@
       <div class="container">
         <div class="logo">
           <a href="index.html">
-            <img src="assets/images/logo-white.png" alt="Smalltown Coffee" />
+            <img src="https://smalltown.coffee/landing/assets/images/logo-white.png" alt="Smalltown Coffee" />
           </a>
         </div>
         <p>Hand roasted in NWI</p>
@@ -58,7 +58,7 @@
 					<li><a class="social-link" href="https://www.instagram.com/smalltowncoffeeco/"><i class="fa fa-instagram"></i></a></li>
 					<li><a class="social-link" href="https://twitter.com/SMTOWNCOFFEE"><i class="fa fa-twitter-square"></i></a></li>
 				</ul>
-        <img class="logomark" src="assets/images/logomark.png" alt="Smalltown Coffee">
+        <img class="logomark" src="https://smalltown.coffee/landing/https://smalltown.coffee/landing/assets/images/logomark.png" alt="Smalltown Coffee">
       </div>
     </div>
 
@@ -105,7 +105,7 @@
       <a href="#" id="btnClose" title="Click here to close."></a>
       <!-- This is the left side of the popup for the description -->
       <div class="formDescription">
-        <img src="assets/images/logo-black.png" alt="Smalltown Coffee" />
+        <img src="https://smalltown.coffee/landing/assets/images/logo-black.png" alt="Smalltown Coffee" />
         <p>Join our Email Club to receive Updates on Events and Special Promotions.</p>
       </div>
       <!-- Begin MailChimp Signup Form -->
@@ -148,9 +148,9 @@
     <!-- JAVASCRIPT -->
 		<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
 		<script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-		<script type="text/javascript" src="slick/slick.min.js"></script>
-		<script src="assets/js/retina.min.js"></script>
-		<script src="assets/js/main.js"></script>
+		<script type="text/javascript" src="https://smalltown.coffee/landing/slick/slick.min.js"></script>
+		<script src="https://smalltown.coffee/landing/assets/js/retina.min.js"></script>
+		<script src="https://smalltown.coffee/landing/assets/js/main.js"></script>
 
 
     <script>
